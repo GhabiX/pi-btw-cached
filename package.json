@@ -1,0 +1,55 @@
+{
+  "name": "@spinetree/pi-btw-cached",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "/btw side questions for Pi: ask about the main session while it runs, on the same prompt-cache prefix; runs no tools, saves nothing to history.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "pi-extension",
+    "btw",
+    "side-question",
+    "prompt-cache"
+  ],
+  "license": "Apache-2.0",
+  "author": "GhabiX",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhabiX/pi-btw-cached.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GhabiX/pi-btw-cached/issues"
+  },
+  "homepage": "https://github.com/GhabiX/pi-btw-cached#readme",
+  "pi": {
+    "extensions": [
+      "./extensions/btw.ts"
+    ],
+    "image": "https://raw.githubusercontent.com/GhabiX/pi-btw-cached/main/media/btw.gif"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2",
+    "ws": "8.22.0"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}
