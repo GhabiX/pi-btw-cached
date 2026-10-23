@@ -24,13 +24,13 @@ A side question is the main session's latest request with one more user message 
 ## Install
 
 ```sh
-pi install npm:@spinetree/pi-btw-cached
+pi install npm:@spinejit/pi-btw-cached
 ```
 
 Try it for one session without installing:
 
 ```sh
-pi -e npm:@spinetree/pi-btw-cached
+pi -e npm:@spinejit/pi-btw-cached
 ```
 
 ## Usage
@@ -71,7 +71,7 @@ npm run typecheck
 
 The test suite loads the extension through Pi's real extension loader and SDK, then runs Pi's API codecs against local scripted HTTP and WebSocket servers. It covers OpenAI Responses, Chat Completions, Codex (SSE and WebSocket), Anthropic, Gemini, codemode, and a re-send by Pi's own cache warmer. No credentials are read and no external model is called.
 
-## More from @spinetree
+## More from @spinejit
 
 - [pi-background-job](https://github.com/GhabiX/pi-background-job): background jobs and output monitors that wake the agent when events occur.
 - [pi-timeout-policy](https://github.com/GhabiX/pi-timeout-policy): one timeout policy for bash, grep, and find.

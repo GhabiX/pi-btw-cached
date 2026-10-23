@@ -24,13 +24,13 @@
 ## 安装
 
 ```sh
-pi install npm:@spinetree/pi-btw-cached
+pi install npm:@spinejit/pi-btw-cached
 ```
 
 不安装，仅在当前会话中试用：
 
 ```sh
-pi -e npm:@spinetree/pi-btw-cached
+pi -e npm:@spinejit/pi-btw-cached
 ```
 
 ## 用法
@@ -71,7 +71,7 @@ npm run typecheck
 
 测试通过 Pi 真实的扩展加载器和 SDK 加载插件，并使用 Pi 自带的各 API 编解码器连接本地脚本化 HTTP 和 WebSocket 服务，覆盖 OpenAI Responses、Chat Completions、Codex（SSE 和 WebSocket）、Anthropic、Gemini、codemode，以及 Pi 自带 cache warmer 的一次重发。测试不读取凭据，也不调用真实模型。
 
-## @spinetree 的其他插件
+## @spinejit 的其他插件
 
 - [pi-background-job](https://github.com/GhabiX/pi-background-job)：后台任务与输出监视，事件发生时自动通知 agent。
 - [pi-timeout-policy](https://github.com/GhabiX/pi-timeout-policy)：为 bash、grep、find 提供统一的超时策略。

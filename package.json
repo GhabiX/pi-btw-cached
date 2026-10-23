@@ -1,5 +1,5 @@
 {
-  "name": "@spinetree/pi-btw-cached",
+  "name": "@spinejit/pi-btw-cached",
   "version": "0.1.0",
   "type": "module",
   "description": "/btw side questions for Pi: ask about the main session while it runs, on the same prompt-cache prefix; runs no tools, saves nothing to history.",
